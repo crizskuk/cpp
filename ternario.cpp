@@ -7,7 +7,7 @@ public:
 	int code = NULL;
 	hacker() {
 	}
-	virtual const string info(int x) const{
+	virtual const string info(int x) const {
 		return (x == 12) ? "ok" : "false";
 	}
 
