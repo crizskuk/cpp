@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="ternario.cpp">
+    <ClCompile Include="referencias.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

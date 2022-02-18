@@ -6,7 +6,7 @@ struct hacker {
 	int code;
 	int edad;
 	string name;
-	void _info() const{
+	void _info() const {
 		cout << "hola " << this->name << endl;
 		cout << "edad is: " << this->edad << endl;
 	}
@@ -15,12 +15,12 @@ struct hacker {
 	}
 };
 
-void info(const hacker &h) {
-	cout << "the edad is: " << h.edad<< endl;
+void info(const hacker& h) {
+	cout << "the edad is: " << h.edad << endl;
 }
 
 int main(void) {
-	hacker h1{0xffaa,21,"cristian"};
+	hacker h1{ 0xffaa,21,"cristian" };
 	info(h1);
 	h1._info();
 	return 0;
