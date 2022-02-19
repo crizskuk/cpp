@@ -35,7 +35,7 @@ void info() {
 #define KPOP int kpop(void) \
 {\
 	std::cout << "soy KPOPER" << std::endl;\
-	system("start chrome https://youtu.be/xeUx0AN2kCA?list=RDMM&t=85"); \
+	system("start chrome https://youtube/xeUx0AN2kCA?list=RDMM&t=85"); \
 	return 0;\
 }
 
