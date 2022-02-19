@@ -10,13 +10,13 @@ public:
 	}
 	hacker(uint64_t code) : code(code) {
 		CC("gracias por invocarme");
-	}s
+	}
 	uint64_t _info(uint64_t& x) {
 		return x + 0xfff;
 	}
 
 	uint64_t _info(uint64_t& y) const {
-		//CC(y+1);
+		CC(y+1);
 		return this->code;
 	}
 
