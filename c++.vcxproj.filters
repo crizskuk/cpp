@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="plantillas.cpp">
+    <ClCompile Include="static.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
