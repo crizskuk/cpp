@@ -17,7 +17,7 @@ public:
 	}
 
 	uint64_t _info(uint64_t& y) const {
-		CC(y+1);
+		CC(y+1);			//llamada a una macro
 		return this->code;
 	}
 
