@@ -19,9 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="macros.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="slt.cpp" />
+    <ClCompile Include="plantillas.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
