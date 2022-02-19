@@ -10,7 +10,7 @@ public:
 	}
 	hacker(uint64_t code) : code(code) {
 		CC("gracias por invocarme");
-	}
+	}s
 	uint64_t _info(uint64_t& x) {
 		return x + 0xfff;
 	}
