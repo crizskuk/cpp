@@ -18,7 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="referencias.cpp">
+    <ClCompile Include="slt.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="macros.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
