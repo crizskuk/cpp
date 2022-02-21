@@ -118,5 +118,6 @@ int main(void) {
 							// medio_pro void edad_(int x)... no son iguales por eso no se llama
 	h5->edad_(80);			//ahora funciona por los 2 metodos son iguales	
 	hackzs(h4);
+	h5->info_ctf();
 	return 0;
 }
