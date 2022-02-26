@@ -32,6 +32,6 @@ int main(void) {
 	char* v11 = new char[64];
 	printf("\nnew v11 %p\n", v11);
 	char* v12 = new char[64];
-	printf("new v12 %p\n", v12);
+	printf("new  v12 %p\n", v12);
 	return 0;
 }
