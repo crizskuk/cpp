@@ -101,5 +101,7 @@ public:
 
 int main(void) {
 	std::shared_ptr<hack> v1 = std::make_shared<hack>();
+	std::shared_ptr<hack> v2 = v1;
+	std::cout << "contador: " << v1.use_count() << std::endl;
 	return 0;
 }
