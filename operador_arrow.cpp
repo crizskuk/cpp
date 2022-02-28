@@ -23,7 +23,7 @@ public:
 		cout << "i'am hacker:: gracias" << endl;
 	}
 	void print(void) const {
-		std::cout << "hello!" << std::endl;
+		std::cout << "hello! " << std::endl;
 	}
 
 	idol* obj_(void) const {
