@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="smart_pointers.cpp">
+    <ClCompile Include="copy_constructs.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
