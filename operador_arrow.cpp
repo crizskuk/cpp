@@ -31,9 +31,18 @@ public:
 	}
 };
 
+struct inf {
+	int x;
+	int y;
+};
+
 int main(void) {
 	hacker v1(new idol());
 	cout << v1.obj_()->edad << endl;
 	v1.obj_()->info_();
+
+	int offset = (int)&((inf*)0)->y;
+	cout << offset << endl;
+
 	return 0;
 }
