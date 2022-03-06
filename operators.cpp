@@ -34,10 +34,23 @@ public:
 	bool operator==(const hacker& h) {
 		return bool(x == h.x);
 	}
+	
+	
+        uint16_t operator+(hacker &v1){
+            std::cout << "edad of this: " << this->_edad << std::endl;
+            return (this->_edad + v1._edad);
+        }
+
+        uint16_t operator+(uint16_t f){
+            std::cout << "edad of this: " << this->_edad << std::endl;
+            return (this->_edad + f);
+        }
 
 };
 
 int main(void) {
+	uint16_t v3 = v1 + v2;
+    	uint16_t v4 = v1 + 10;
 	hacker level(7, 777);
 	hacker edad(7, 555);
 	hacker supe(2, 3);
