@@ -1,0 +1,35 @@
+#include <iostream>
+#include <vector>
+#include <stdint.h>
+#include <Windows.h>
+#include "colores.h"
+
+class Idol
+{
+public:
+    uint16_t edad;
+    uint16_t statura;
+    Idol(){
+        std::cout << "hola soy Idol" <<std::endl;
+    }
+    virtual uint64_t id_(uint64_t id)
+    {
+        std::cout << _NORMAL <<"tu id is: hex: "<< _ROJO << std::hex << "0x" << (id << 8)<< _NORMAL << std::endl;
+        return (id << 8);
+    }
+};
+
+int main(void){
+    system("cls");
+    std::vector<int> v2 = {2,8,16,32};
+    std::vector<Idol> v1(5);
+    v1.reserve(5);
+    v1[0].edad = 2;
+    v1[1].edad = 4;
+    v1[2].edad = 8;
+    v1[3].edad = 16;
+    v1[4].edad = 32;
+    uint64_t r = v1[0].id_(5);
+    std::cout << std::dec << "result is: " << r << std::endl;
+    return 0;
+}
